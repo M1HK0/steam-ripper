@@ -1,0 +1,33 @@
+# --- Secrets: NEVER commit these ---
+cookie.txt
+cookies.txt
+*.token
+tokens.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- PyInstaller build artifacts ---
+build/
+dist/
+*.spec
+
+# --- Built executables ---
+*.exe
+
+# --- CMake / C++ build ---
+/out/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.obj
+*.pdb
+*.ilk
+
+# Vendored ImGui (clone separately for the C++ prototype)
+third_party/imgui/

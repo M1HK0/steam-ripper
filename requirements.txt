@@ -1,0 +1,2 @@
+requests>=2.31
+steam>=1.4.4
